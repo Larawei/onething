@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Larawei\Onething;
-
 
 use GuzzleHttp\Client;
 
