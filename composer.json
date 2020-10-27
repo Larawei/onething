@@ -1,0 +1,26 @@
+{
+    "name": "larawei/onething",
+    "description": "Onething SDK package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "larawei",
+            "email": "764098204@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larawei\\Onething\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larawei\\Onething\\ServiceProvider"
+            ]
+        }
+    }
+}
